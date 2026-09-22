@@ -1,15 +1,155 @@
 <!DOCTYPE html>
 <html lang="uz">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>DOKON - Asosiy</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOKON - Asosiy</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
+
+
+    <!-- Navbar -->
+    <header class="site-header">
+        <nav class="nav-container" aria-label="Asosiy navigatsiya">
+            <!-- Logo -->
+            <a href="index.html" class="nav-logo">
+                DOKON<span class="dot">.</span>
+            </a>
+
+            <!-- Nav Links -->
+            <div class="nav-menu">
+                <a href="index.html" class="nav-link active">Asosiy</a>
+                <a href="cotalog.html" class="nav-link">Mahsulotlar</a>
+                <a href="about.html" class="nav-link">Biz haqimizda</a>
+            </div>
+
+            <!-- Savat (Cart) Button -->
+            <a href="korzinka.html" class="nav-cart-btn">
+                <svg class="cart-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <circle cx="9" cy="21" r="1"></circle>
+                    <circle cx="20" cy="21" r="1"></circle>
+                    <path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"></path>
+                </svg>
+                <span>Savat</span>
+            </a>
+        </nav>
+    </header>
+
+    <!-- Page Content -->
+    <div class="hero-container">
+        <h1 class="title">Zamonaviy Xaridlar Olamiga Xush Kelibsiz</h1>
+        <p class="subtitle">
+            Bizning do'konimizda eng so'nggi va sifatli mahsulotlarni topishingiz mumkin.<br>
+            Hozirroq xaridlarni boshlang.
+        </p>
+        <button class="btn">Xarid qilish</button>
+    </div>
+
+    <main>
+        <div class="products-section">
+            <h2 class="section-title">Top Mahsulotlar</h2>
+            
+            <div class="products-grid">
+                <!-- Карточка 1 -->
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/9/96/Lapiz_labial.jpg?utm_source=ru.wikipedia.org&utm_campaign=index&utm_content=original" alt="Essence Mascara">
+                    </div>
+                    <h3 class="product-title">Essence Mascara Lash...</h3>
+                    <p class="product-desc">The Essence Mascara Lash Princess is a popular mascara known for its...</p>
+                    <div class="product-footer">
+                        <span class="product-price">$9.99</span>
+                        <button class="btn-primary">Batafsil</button>
+                    </div>
+                </div>
+
+                <!-- Карточка 2 -->
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="https://zamin.uz/uploads/posts/2024-03/d0853fac89_01.webp" alt="Eyeshadow Palette">
+                    </div>
+                    <h3 class="product-title">Eyeshadow Palette with Mirror</h3>
+                    <p class="product-desc">The Eyeshadow Palette with Mirror offers a versatile range of eyeshadow...</p>
+                    <div class="product-footer">
+                        <span class="product-price">$19.99</span>
+                        <button class="btn-primary">Batafsil</button>
+                    </div>
+                </div>
+
+                <!-- Карточка 3 -->
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTHsw5AiwpNVmYChOnVTvZgVRJl-ZshNR6zbTBk-IpOZGRPIgVCSPtbdxA&s=10" alt="Powder Canister">
+                    </div>
+                    <h3 class="product-title">Powder Canister</h3>
+                    <p class="product-desc">The Powder Canister is a finely milled setting powder designed to set makeu...</p>
+                    <div class="product-footer">
+                        <span class="product-price">$14.99</span>
+                        <button class="btn-primary">Batafsil</button>
+                    </div>
+                </div>
+
+                <!-- Карточка 4 -->
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTqM-SJP5SG_9BM9JsWy9i2R6aErz1IguCakJ0hIGS4-lBhkTnrELfBLJg&s=10" alt="Red Lipstick">
+                    </div>
+                    <h3 class="product-title">Red Lipstick</h3>
+                    <p class="product-desc">The Red Lipstick is a classic and bold choice for adding a pop of color to yo...</p>
+                    <div class="product-footer">
+                        <span class="product-price">$12.99</span>
+                        <button class="btn-primary">Batafsil</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="section-footer">
+                <button class="btn-outline">Barchasini ko'rish</button>
+            </div>
+        </div>
+    </main>
+
+    <section>
+        <section class="testimonials">
+            <h2 class="h22">Mijozlarimiz Fikri</h2>
+            <div class="box2">
+                <div class="box">
+                    <p class="stars">★★★★★</p>
+                    <p class="comment">
+                        "Juda ajoyib do'kon! Mahsulotlar sifati va yetkazib berish xizmati
+                        alo darajada."
+                    </p>
+                    <b class="customer">- Xaridor 1</b>
+                </div>
+                <div class="box">
+                    <p class="stars">★★★★★</p>
+                    <p class="comment">
+                        "Juda ajoyib do'kon! Mahsulotlar sifati va yetkazib berish xizmati
+                        alo darajada."
+                    </p>
+                    <b class="customer">- Xaridor 2</b>
+                </div>
+                <div class="box">
+                    <p class="stars">★★★★★</p>
+                    <p class="comment">
+                        "Juda ajoyib do'kon! Mahsulotlar sifati va yetkazib berish xizmati
+                        alo darajada."
+                    </p>
+                    <b class="customer">- Xaridor 3</b>
+                </div>
+            </div>
+        </section>
+    </section>
+
+    <section class="contact-section">
+    <h2 class="contact-title">Biz bilan aloqa</h2>
+    <p class="contact-subtitle">Savollaringiz bormi? Bizga murojaat qiling.</p>
+    <a href="mailto:info@dokon.uz" class="contact-email">info@dokon.uz</a>
+</section>
 
   <!-- Navbar -->
   <header class="site-header">
@@ -37,6 +177,7 @@
       </a>
     </nav>
   </header>
+
 
 </body>
 </html>
